@@ -1,4 +1,5 @@
- .header {
+// Header
+.header {
   min-height: 1000px;
   background: linear-gradient(
     to bottom right, 
@@ -8,6 +9,14 @@
      url('../images/header-background.jpg') center center no-repeat;
   background-size: cover;
  }
+
+.header .slide {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
 
  @media(max-width: 992px) {
   .navbar {
