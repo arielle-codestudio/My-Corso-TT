@@ -13,7 +13,7 @@
     <link rel="icon" href="images/favicon.png" />
     <title>Corso Training</title>
   </head>
-  <body>
+  <body id="home">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
       <a href="index.html" class="navbar-brand">
@@ -82,7 +82,7 @@
             <!-- Image Slider -->
              <div id="slider" class="carousel slide"  data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button class="active" type="button" data-bs-slide-to="0" data-bs-target="#slider" aria-cuurent="true" aria-label="Slide 1">
+                <button class="active" type="button" data-bs-slide-to="0" data-bs-target="#slider" aria-current="true" aria-label="Slide 1">
                 </button>
                 <button type="button" data-bs-slide-to="1" data-bs-target="#slider" aria-label="Slide 2">
                 </button>
@@ -143,16 +143,16 @@
             <div class="col-lg-6 p-4">
               <form>
                 <div class="my-4">
-                  <input type="text" class="form-control form-control-lg rounded-2 border-0" placeholder="Enter name">
+                  <input type="text" class="form-control form-control-lg rounded-2 border-0" placeholder="Enter name" required>
                 </div>
                 <div class="my-4">
-                  <input type="email" class="form-control form-control-lg rounded-2 border-0" placeholder="Enter email">
+                  <input type="email" class="form-control form-control-lg rounded-2 border-0" placeholder="Enter email" required>
                 </div>
                 <div class="my-4">
                   <input type="text" class="form-control form-control-lg rounded-2 border-0" placeholder="Enter phone number">
                   <div class="form-check mt-3">
                     <input type="checkbox" class="form-check-input" value="">
-                    <label for="terms" class="form-check-label">I agree to the terms and conditons
+                    <label for="terms" class="form-check-label">I agree to the terms and conditions
                     </label>
                   </div>
                   <div class="d-grid mt-4">
@@ -287,7 +287,7 @@
         </section>
 
 <!--Course Summary  -->
-<section id="sumary" class="summary bg-light mt-5 w-75 m-auto">
+<section id="summary" class="summary bg-light mt-5 w-75 m-auto">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -367,7 +367,7 @@
          </section>
 
          <!-- Takeaways -->
-          <section id="takeawys" class="takeaways my-5 bg-light">
+          <section id="takeaways" class="takeaways my-5 bg-light">
             <div class="container">
               <div class="row text-center mb-5">
                 <div class="col-md-8 offset-md-2">
@@ -462,11 +462,65 @@
               </div>
             </div>
           </div>
+         </div>
+        </div>
+      </section>
 
-
-               </div>
+      <!-- Subsribe Form -->
+       <section id="subscribe" class="subscribe my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+              <h2>Subscribe to our email list and get updates from our experts</h2>
+              <form>
+                <div class="my-4">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter Email">
+                  <div class="form-text"> We will never share your email address</div>
+                </div>
+                <div class="d-grid">
+                  <button class="btn btn-primary">Subscribe</button>
+                </div>
+              </form>
             </div>
-          </section>
+          </div>
+        </div>
+       </section>
+
+       <!-- Footer -->
+        <footer class="footer mt-4 text-bg-dark py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h5>Our Vision</h5>
+                <p>
+                  At Corso, our vision is to empower creators to turn blogs into profit engines—automated, scalable, and built for lasting passive income.
+                </p>
+              </div>
+
+              <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#discover">Discover</a></li>
+                  <li><a href="#summary">Summary</a></li>
+                  <li><a href="#takeaways">Takeaways</a></li>
+                  <li><a href="#subscribe">Subscribe</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-4">
+                <h5>Connect</h5>
+                <div class="d-flex gap-3">
+                  <a href="#"><i class="fab fa-facebook fa-2x text-white"></i></a>
+                  <a href="#"><i class="fab fa-instagram fa-2x text-white"></i></a>
+                  <a href="#"><i class="fab fa-linkedin fa-2x text-white"></i></a>
+                  <a href="#"><i class="fab fa-youtube fa-2x text-white"></i></a>
+                  <a href="#"><i class="fab fa-pinterest fa-2x text-white"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
 
 
 
